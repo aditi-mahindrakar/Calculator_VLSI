@@ -1,12 +1,14 @@
 4-Bit VLSI Calculator (ALU) - RTL to GDSII Flow
 A complete "Level 1" VLSI design project implementing a 4-bit Arithmetic Logic Unit (ALU) using an entirely open-source EDA toolchain. 
 This project moves from high-level Verilog hardware description to a manufacture-ready GDSII silicon layout on the SkyWater 130nm PDK.
+
 🛠 Project Specifications
 Word Length: 4-bit operands (a, b)
 Output: 8-bit result (res) to prevent overflow
 Operations: Addition (00), Subtraction (01), Multiplication (10)
 Process Node: SkyWater 130nm (Sky130)
 Library: Sky130_fd_sc_hd (High Density)
+
 🏗 Toolchain & Platforms
 Design: Verilog HDL (Hardware Description)
 Simulation: Icarus Verilog (Functional Verification)
@@ -15,6 +17,7 @@ Synthesis: Yosys (RTL to Gate-level Netlist)
 Physical Design: OpenLane (Automated RTL-to-GDSII)
 PDK: SkyWater 130nm (Manufacturing Rules)
 Deployment: Google Colab (Cloud-based Execution)
+
 📈 Design Journey
 1. RTL Design & Logic
 The calculator logic was written in Verilog using a combinational always block.
