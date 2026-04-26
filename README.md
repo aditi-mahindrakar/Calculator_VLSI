@@ -30,6 +30,7 @@ Using the OpenLane flow, the design underwent:
 Floorplanning: Defined the die area (~10,344 µm²) and I/O pins.
 Placement: Positioned logic gates in optimized rows.
 Routing: Created metal interconnects (Metal 1-5) and established the power grid (VDD/GND).
+
 📊 Final Design Metrics
 Die Area: ~96.5 µm x 107.2 µm
 Total Area: ~10,344 µm²
